@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    display: ruby-base;
+    position: static;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    top: 0px;
+    background-image: linear-gradient(180deg, rgb(25, 0, 255), rgb(0, 217, 255));
+    background-blend-mode: darken;
+    background-size: cover;
+    color: rgb(161, 62, 62);
+    padding: 10px 20px;
+
+    
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-list li {
+    margin-right: 20px;
+    
+
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+    
+   
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+    
+    
+}
+
+.rightNav {
+    text-align: center;
+}
+
+.nav-list li a:hover {
+    color: #ff00bf;
+   
+ /* Change the color on hover */
+}
+
+
+
+.container {
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(19, 114, 59);
+    color: rgb(27, 2, 48);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #lightbox
+{
+    height:0px;
+    width:0px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    overflow:hidden;
+    background-color:blue;
+    transition:all 2s ease;
+}
+#lightbox:target
+{
+    top:200px;
+    left:200px;
+    height:200px;
+    width:200px;
+}
+
+
+
+.container {
+    margin-left: 0px;
+    margin-right: 60px;
+    border: 10px solid #131212;
+    width: 1200px;
+    height: 150px;
+    text-align: center;
+    padding: 65px;
+    background-image: url("https://images.unsplash.com/photo-1496664444929-8c75efb9546f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    border-radius: 8px;
+
+}
+
+   
+
+.box1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #100431;
+    margin-top: 20px;
+    
+
+}
+    
+
+
+.box2{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c5c5db;
+   
+}
+
+.container1 {
+    margin-left: 0px;
+    margin-right: 60px;
+    border: 10px solid #ece0e0;
+    width: 1200px;
+    height: 100px;
+    text-align: center;
+    padding: 65px;
+    background-image: url("https://wallpapers.com/images/featured/plain-background-0aqx3e65vih1xev1.jpg");
+    border-radius: 8px;
+
+}
+
+   
+
+.box3 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #ade726;
+    margin-top: 20px;
+    
+
+}
+    
+
+
+.box4{
+    font-size: 18px;
+    font-weight: bold;
+    
+   
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+.container4 {
+    margin-left: 0px;
+    margin-right: 60px;
+    border: 10px solid #d7e9d8;
+    width: 1200px;
+    height: 300px;
+    text-align: center;
+    padding: 65px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230818/pngtree-red-photo-creative-yellow-background-hd-wallpaper-download-vector-image_13093768.jpg");
+    border-radius: 8px;
+
+}
+
+.des{
+    font-family: 'Times New Roman', Times, serif;
+    font-display: bold;
+    font-size: 42px;
+    font-weight: bold;
+    color: #100431;
+    margin-top: 0px;
+    
+
+}
+
+.cards{
+    width: 20%;
+        background-color: white;
+        border-radius: 5px ;
+        margin: 40px;
+        box-shadow: 2px 2px 10px black ;
+        display: inline-block;
+
+}
+
+.image img{
+    width: 100%;
+    height: 50%;
+}
+
+
+.des {
+    text-align: center;
+}
+
+button, {
+    margin: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+button:hover {
+    background-color: #100431;
+    color: #ade726;
+    transition: 0.5s;
+    
+}
+
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #100431;
+    margin-top: 0px;
+    background-color: blueviolet;
+
+}
+
